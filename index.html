@@ -3,11 +3,13 @@
 <head>
     <title>Todo List</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="container">
         <h1>My Todo List</h1>
-        <div class="tasks">
+        <!-- <div class="tasks">
             <div class="task">
                 <input type="checkbox">
                 <span>Going to the gym</span>
@@ -18,11 +20,13 @@
                 <span>Walk the dog</span>
                 <button class="delete-button">Delete</button>
             </div>
-        </div>
-        <form class="add-task">
-            <input type="text" placeholder="Add a new task">
+        </div> -->
+        <div id="container">
+        <form class="add-task" id="add-task">
+            <input type="text" placeholder="Add a new task" id="taskInput">
             <input type="submit" value="Add">
         </form>
+        </div>
     </div>
 
     <script src="index.js"></script>

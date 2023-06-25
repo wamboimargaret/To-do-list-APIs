@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: aliceblue;
+    
 }
 
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
 .container {
@@ -13,24 +15,9 @@ h1 {
     border: black;
 }
 
-.task {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    justify-content: space-between;
-}
 
-.task input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-.task.completed {
-    text-decoration: line-through;
-    color: #999;
-}
-
-.delete-button {
-    background-color: #ff4136;
+button{
+    /* background-color: #ff4136; */
     border-radius: 10px;
     color: white;
     border: none;
@@ -38,13 +25,15 @@ h1 {
     cursor: pointer;
 }
 
-.delete-button:hover {
-    background-color: #dc322f;
+button:hover {
+    /* background-color: #dc322f; */
 }
 
 .add-task {
     display: flex;
     margin-top: 10px;
+    
+
 }
 
 .add-task input[type="text"] {
@@ -52,6 +41,7 @@ h1 {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    border: transparent;
 }
 
 .add-task input[type="submit"] {
@@ -63,6 +53,23 @@ h1 {
     cursor: pointer;
 }
 
-.add-task input[type="submit"]:hover {
-    background-color: #0056b3;
+
+
+#container{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+input{
+    padding: 9px;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: transparent;
+}
+button{
+    padding: 5px 5px;
+    margin-left: 60px;
+    color: #ff4136;
+    border-radius: 5px;
+    
 }
